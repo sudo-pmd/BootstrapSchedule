@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emploi du Temps - DIC1 GIT</title>
+  <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body class="bg-1"> 
+  <!-- Entete de la page -->
+  <div class="container my-4">
+    <div class="p-2 md:p-3 border-bottom border-color-tertiary mb-4">
+      <div class="row align-items-center g-1">
+        <div class="col-2 mt-0 d-flex justify-content-center align-items-center md:col-1">
+          <img src="assets/img/logo.png" class="logo" alt="">
+        </div>
+        <div class="col-10 md:col-7">
+          <p class="text-uppercase fg-primary mb-2 fs-xs small fw-bold">École Polytechnique de Thiès - Emploi du temps</p>
+          <h1 class="h5 mb-0 fw-bold fg-black">GENIE INFORMATIQUE ET TELECOMMUNICATIONS</h1>
+          <span class="fg-tertiary fs-xs fst-italic">Semaine du 16 - 21 novembre 2026</span>
+        </div>
+        <div class="col-12 mt-0 md:col-4">
+          <div class="text-uppercase fg-black fs-xs"><span class="fg-tertiary fw-bold me-2">Etudiant :</span> Papa Mamadou Diop</div>
+          <div class="text-uppercase fg-black fs-xs"><span class="fg-tertiary fw-bold me-2">Niveau :</span> DIC1 GIT</div>
+          <div class="text-uppercase fg-black fs-xs"><span class="fg-tertiary fw-bold me-2">Année :</span> 2026-2027</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page pour grands-ecrans (d-none md:d-block)  -->
+    <div class="d-none md:d-block bg-body p-3 rounded-3 shadow-sm border">
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle mb-0">
+          <thead class="text-center">
+            <tr>
+              <th class="bg-inverse fg-tertiary" style="width: 10%;"></th>
+              <th class="bg-inverse fg-tertiary fs-xs" style="width: 15%;">LUNDI<br><small class="fg-black fs-md fst-italic fw-semibold">16 nov.</small></th>
+              <th class="bg-inverse fg-tertiary fs-xs" style="width: 15%;">MARDI<br><small class="fg-black fs-md fst-italic fw-semibold">17 nov.</small></th>
+              <th class="bg-inverse fg-tertiary fs-xs" style="width: 15%;">MERCREDI<br><small class="fg-black fs-md fst-italic fw-semibold">18 nov.</small></th>
+              <th class="bg-inverse fg-tertiary fs-xs" style="width: 15%;">JEUDI<br><small class="fg-black fs-md fst-italic fw-semibold">19 nov.</small></th>
+              <th class="bg-inverse fg-tertiary fs-xs" style="width: 15%;">VENDREDI<br><small class="fg-black fs-md fst-italic fw-semibold">20 nov.</small></th>
+              <th class="bg-inverse fg-tertiary fs-xs" style="width: 15%;">SAMEDI<br><small class="fg-black fs-md fst-italic fw-semibold">21 nov.</small></th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Créneau matin : 08h00 - 12h00 -->
+            <tr>
+              <td class="text-center fw-semibold fg-black bg-1 fs-xs">08:00<br>12:00</td>
+              <!-- Lundi matin -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+                  <span class="badge bg-primary fg-black mb-1">COURS</span>
+                  <div class="fw-bold small">Techniques de communication en Anglais 1</div>
+                  <div class="small fs-xs fg-blue mt-1">Amadou Gallo FALL</div>
+                  <div class="small fw-semibold">Salle B203</div>
+                </div>
+              </td>
+
+              <!-- Mardi matin -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+                  <span class="badge bg-primary fg-black mb-1">COURS</span>
+                  <div class="fw-bold small">Recherche opérationnelle</div>
+                  <div class="small fs-xs fg-blue mt-1">Ahmed Mouhamadou WADE</div>
+                  <div class="small fw-semibold">Salle B203</div>
+                </div>
+              </td>
+
+              <!-- Mercredi matin -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+                  <span class="badge bg-primary fg-black mb-1">COURS</span>
+                  <div class="fw-bold small">Fondamentaux BD (SQL, Admin, Sécurité)</div>
+                  <div class="small fs-xs fg-blue mt-1">Abdoul Aziz CISS</div>
+                  <div class="small fw-semibold">Salle B203</div>
+                </div>
+              </td>
+
+              <!-- Jeudi matin -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-secondary border-start border-4 border-secondary">
+                  <span class="badge bg-secondary fg-black mb-1">AUTRE</span>
+                  <div class="fw-bold small">TPE</div>
+                </div>
+              </td>
+
+              <!-- Vendredi matin -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+                  <span class="badge bg-primary fg-black mb-1">COURS</span>
+                  <div class="fw-bold small">Traitement du Signal</div>
+                  <div class="small fs-xs fg-blue mt-1">Ndeye Fatou NGOM</div>
+                  <div class="small fw-semibold">Salle B203</div>
+                </div>
+              </td>
+
+              <!-- Samedi matin -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+                  <span class="badge bg-primary fg-black mb-1">COURS</span>
+                  <div class="fw-bold small">PPP 1</div>
+                  <div class="small fs-xs fg-blue mt-1">Oumar NIANG</div>
+                  <div class="small fw-semibold">Salle B203</div>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Pause déjeuner -->
+            <tr class="text-center">
+              <td class="text-center fw-semibold fg-black bg-1 fs-xs">12:00<br>15:00</td>
+              <td colspan="6" class="fg-blue small fst-italic py-1 bg-1">Pause déjeuner</td>
+            </tr>
+
+            <!-- Créneau soir : 15h00 - 19h00 -->
+            <tr>
+              <td class="text-center fw-semibold fg-black bg-1 fs-xs">15:00<br>19:00</td>
+
+              <!-- Lundi après-midi -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+                  <span class="badge bg-primary fg-black mb-1">COURS</span>
+                  <div class="fw-bold small">ACSI 2 (UML & Design Patterns)</div>
+                  <div class="small fs-xs fg-blue mt-1">Abdoulaye GUISSE</div>
+                  <div class="small fw-semibold">Salle B203</div>
+                </div>
+              </td>
+
+              <!-- Mardi après-midi -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+                  <span class="badge bg-primary fg-black mb-1">COURS</span>
+                  <div class="fw-bold small">Techniques de communication en Français</div>
+                  <div class="small fs-xs fg-blue mt-1">Ousmane SANOKHO</div>
+                  <div class="small fw-semibold">Salle B203</div>
+                </div>
+              </td>
+
+              <!-- Mercredi après-midi -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-secondary border-start border-4 border-secondary">
+                  <span class="badge bg-secondary fg-black mb-1">AUTRE</span>
+                  <div class="fw-bold small">TPE</div>
+                </div>
+              </td>
+
+              <!-- Jeudi après-midi -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-secondary border-start border-4 border-secondary">
+                  <span class="badge bg-secondary fg-black mb-1">AUTRE</span>
+                  <div class="fw-bold small">TPE</div>
+                </div>
+              </td>
+
+              <!-- Vendredi après-midi -->
+              <td class="p-2 bg-1">
+                <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+                  <span class="badge bg-primary fg-black mb-1">COURS</span>
+                  <div class="fw-bold small">UX Design (+intégration)</div>
+                  <div class="small fs-xs fg-blue mt-1">Samba SIDIBE</div>
+                  <div class="small fw-semibold">Salle B203</div>
+                </div>
+              </td>
+
+              <!-- Samedi après-midi -->
+              <td class="text-center fg-blue small bg-1">Libre</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Pages pour telephones : cartes jour par jour (md:d-none)            -->
+
+    <div class="md:d-none">
+
+      <!-- Lundi -->
+      <div class="bg-body p-3 rounded-3 shadow-sm border mb-3">
+        <div class="d-flex justify-content-between align-items-center bg-inverse fg-tertiary p-2 rounded-2 mb-3">
+          <span class="fw-bold">LUNDI</span>
+          <span class="fg-black fs-md fst-italic fw-semibold">16 nov.</span>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary mb-2">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-black">
+            <span>08:00 - 12:00</span>
+            <span class="badge bg-primary">COURS</span>
+          </div>
+          <div class="fw-bold">Techniques de communication en Anglais 1</div>
+          <div class="small fg-blue">Amadou Gallo FALL • Salle B203</div>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-black">
+            <span>15:00 - 19:00</span>
+            <span class="badge bg-primary">COURS</span>
+          </div>
+          <div class="fw-bold">ACSI 2 (UML & Design Patterns)</div>
+          <div class="small fg-blue">Abdoulaye GUISSE • Salle B203</div>
+        </div>
+      </div>
+
+      <!-- Mardi -->
+      <div class="bg-body p-3 rounded-3 shadow-sm border mb-3">
+        <div class="d-flex justify-content-between align-items-center bg-inverse fg-tertiary p-2 rounded-2 mb-3">
+          <span class="fw-bold">MARDI</span>
+          <span class="fg-black fs-md fst-italic fw-semibold">17 nov.</span>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary mb-2">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-black">
+            <span>08:00 - 12:00</span>
+            <span class="badge bg-primary fg-black">COURS</span>
+          </div>
+          <div class="fw-bold">Recherche opérationnelle</div>
+          <div class="small fg-blue">Ahmed Mouhamadou WADE • Salle B203</div>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-black">
+            <span>15:00 - 19:00</span>
+            <span class="badge bg-primary fg-black">COURS</span>
+          </div>
+          <div class="fw-bold">Techniques de communication en Français</div>
+          <div class="small fg-blue">Ousmane SANOKHO • Salle B203</div>
+        </div>
+      </div>
+
+      <!-- Mercredi -->
+      <div class="bg-body p-3 rounded-3 shadow-sm border mb-3">
+        <div class="d-flex justify-content-between align-items-center bg-inverse fg-tertiary p-2 rounded-2 mb-3">
+          <span class="fw-bold">MERCREDI</span>
+          <span class="fg-black fs-md fst-italic fw-semibold">18 nov.</span>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary mb-2">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-black">
+            <span>08:00 - 12:00</span>
+            <span class="badge bg-primary fg-black">COURS</span>
+          </div>
+          <div class="fw-bold">Fondamentaux BD (SQL, Admin, Sécurité)</div>
+          <div class="small fg-blue">Abdoul Aziz CISS • Salle B203</div>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-secondary border-start border-4 border-secondary">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-tertiary">
+            <span>15:00 - 19:00</span>
+            <span class="badge bg-secondary fg-tertiary">AUTRE</span>
+          </div>
+          <div class="fw-bold">TPE</div>
+        </div>
+      </div>
+
+      <!-- Jeudi -->
+      <div class="bg-body p-3 rounded-3 shadow-sm border mb-3">
+        <div class="d-flex justify-content-between align-items-center bg-inverse fg-tertiary p-2 rounded-2 mb-3">
+          <span class="fw-bold">JEUDI</span>
+          <span class="fg-black fs-md fst-italic fw-semibold">19 nov.</span>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-secondary border-start border-4 border-secondary mb-2">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-tertiary">
+            <span>08:00 - 12:00</span>
+            <span class="badge bg-secondary fg-tertiary">AUTRE</span>
+          </div>
+          <div class="fw-bold">TPE</div>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-secondary border-start border-4 border-secondary">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-tertiary">
+            <span>15:00 - 19:00</span>
+            <span class="badge bg-secondary fg-tertiary">AUTRE</span>
+          </div>
+          <div class="fw-bold">TPE</div>
+        </div>
+      </div>
+
+      <!-- Vendredi -->
+      <div class="bg-body p-3 rounded-3 shadow-sm border mb-3">
+        <div class="d-flex justify-content-between align-items-center bg-inverse fg-tertiary p-2 rounded-2 mb-3">
+          <span class="fw-bold">VENDREDI</span>
+          <span class="fg-black fs-md fst-italic fw-semibold">20 nov.</span>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary mb-2">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-black">
+            <span>08:00 - 12:00</span>
+            <span class="badge bg-primary fg-black">COURS</span>
+          </div>
+          <div class="fw-bold">Traitement du Signal</div>
+          <div class="small fg-blue">Ndeye Fatou NGOM • Salle B203</div>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-black">
+            <span>15:00 - 19:00</span>
+            <span class="badge bg-primary fg-black">COURS</span>
+          </div>
+          <div class="fw-bold">UX Design (+intégration)</div>
+          <div class="small fg-blue">Samba SIDIBE • Salle B203</div>
+        </div>
+      </div>
+
+      <!-- Samedi -->
+      <div class="bg-body p-3 rounded-3 shadow-sm border mb-3">
+        <div class="d-flex justify-content-between align-items-center bg-inverse fg-tertiary p-2 rounded-2 mb-3">
+          <span class="fw-bold">SAMEDI</span>
+          <span class="fg-black fs-md fst-italic fw-semibold">21 nov.</span>
+        </div>
+        <div class="p-2 rounded-2 bg-subtle-primary border-start border-4 border-primary">
+          <div class="d-flex justify-content-between small fw-semibold mb-1 fg-black">
+            <span>08:00 - 12:00</span>
+            <span class="badge bg-primary fg-black">COURS</span>
+          </div>
+          <div class="fw-bold">PPP 1</div>
+          <div class="small fg-blue">Oumar NIANG • Salle B203</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer : légende et nombre d'heures dans tous écrans (c'est trop) -->
+
+    <div class="bg-body p-3 rounded-3 shadow-sm border mt-3 d-flex flex-column md:flex-row justify-content-between align-items-center gap-2">
+      <div class="d-flex gap-3 small">
+        <span class="fg-black fw-semibold fs-xs"><span class="badge bg-primary fg-black">&nbsp;</span> Cours</span>
+        <span class="fg-black fw-semibold fs-xs"><span class="badge bg-secondary fg-tertiary">&nbsp;</span> Autre (TPE)</span>
+        <span class="fg-black fw-semibold fs-xs"><span class="badge bg-danger fg-tertiary">&nbsp;</span> Évaluation</span>
+      </div>
+      <div class="small fw-bold fg-blue">
+        11 séances • 44 h de cours sur la semaine
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module" src="assets/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,55 @@
+/* Definition des couleurs de l'emploi du temps en respectant un minimum le style de celui de l'EPT */
+
+.bg-1 {
+    background-color: #FDFBF7;
+}
+
+.bg-body {
+    background-color: antiquewhite;
+}
+
+.fg-primary {
+    color : #C8803A;
+}
+
+.fg-tertiary {
+    color : #B5AFA7;
+}
+
+.logo {
+    height: 55px;
+    width: 55px;
+    object-fit: contain;
+}
+
+.border-color-tertiary {
+    border-color: #C8803A;
+}
+
+.bg-subtle-primary {
+    background-color: #8b9bb3;
+}
+
+.border-primary {
+    border-color: #284D76;
+}
+
+.fg-blue {
+    color: #284D76;
+}
+
+/* Gestion du tableau pour que les div a l'interieur occupent directement 100% de la hauteur */
+
+table {
+    height: 70vh;
+}
+
+tr, td {
+    height: 100%;
+
+}
+
+td>div {
+    height: 100% !important;
+    min-height: 100%;
+}
